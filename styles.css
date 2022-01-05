@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #00baba;
+}
+
+.header {
+  padding: 5%;
+  background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg);
+  background-size: cover;
+}
+
+.header__img {
+  width: 130px;
+}
+
+.header__title--wrapper {
+  display: inline-block;
+}
+
+.header__title {
+  display: inline-block;
+  font-size: 80px;
+  margin: 0;
+}
+
+.header__subtitle {
+  margin: 0;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.main {
+  margin: 5%;
+  width: 60%;
+}
+
+.main > h3 {
+  margin: 2rem 0 1rem 0;
+}
+
+.main p {
+  line-height: 40px;
+}
